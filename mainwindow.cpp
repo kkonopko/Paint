@@ -27,10 +27,6 @@ MainWindow::MainWindow(QWidget *parent)
     brushActionGroup.actions().first()->trigger();
 }
 
-MainWindow::~MainWindow()
-{
-}
-
 void MainWindow::closeEvent(QCloseEvent *event)
 {
     if (maybeSave()) {
