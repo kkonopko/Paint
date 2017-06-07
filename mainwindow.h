@@ -22,7 +22,7 @@ class MainWindow : public QMainWindow
 
 public:
     MainWindow(QWidget *parent = 0);
-    ~MainWindow();
+    ~MainWindow() = default;
 
 protected:
     void closeEvent(QCloseEvent *event);
